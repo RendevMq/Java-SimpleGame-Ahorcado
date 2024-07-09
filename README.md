@@ -4,6 +4,18 @@
 
 El juego de Ahorcado es un clásico juego de adivinanza de palabras. El jugador debe intentar adivinar una palabra oculta letra por letra. Si la letra adivinada está en la palabra, se revela en su posición correspondiente. Si la letra no está en la palabra, el jugador pierde un intento. El juego continúa hasta que el jugador adivina toda la palabra o se queda sin intentos. Si el jugador adivina la palabra completa, gana. Si se acaban los intentos antes de adivinar la palabra, el jugador pierde.
 
+## Pruebas - palabra a adivinar -->developer
+
+Prueba ganadora!!
+<p align = "center">
+<img src="https://raw.githubusercontent.com/RendevMq/MyGIFS/main/correctAhorcado.gif" width=400>
+</p>
+
+Prueba fallida!!
+<p align = "center">
+<img src="https://raw.githubusercontent.com/RendevMq/MyGIFS/main/incorrectAhorcado.gif" width=400>
+</p>
+
 ## Herramientas Utilizadas
 
 Para desarrollar el juego de Ahorcado en Java, se utilizaron las siguientes herramientas y componentes:
