@@ -1,18 +1,45 @@
-## Getting Started
+# Juego de Ahorcado en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descripción del Juego
 
-## Folder Structure
+El juego de Ahorcado es un clásico juego de adivinanza de palabras. El jugador debe intentar adivinar una palabra oculta letra por letra. Si la letra adivinada está en la palabra, se revela en su posición correspondiente. Si la letra no está en la palabra, el jugador pierde un intento. El juego continúa hasta que el jugador adivina toda la palabra o se queda sin intentos. Si el jugador adivina la palabra completa, gana. Si se acaban los intentos antes de adivinar la palabra, el jugador pierde.
 
-The workspace contains two folders by default, where:
+## Herramientas Utilizadas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Para desarrollar el juego de Ahorcado en Java, se utilizaron las siguientes herramientas y componentes:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Clase Scanner**:
+    - Utilizada para leer la entrada del usuario desde la consola.
+    - Permite capturar las letras que el jugador ingresa para adivinar la palabra.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. **Declaraciones y Asignaciones**:
+    - Se realizaron para definir y asignar variables que controlan el estado del juego, como el número de intentos restantes, la palabra a adivinar, y las letras adivinadas.
 
-## Dependency Management
+3. **Arreglos**:
+    - Se emplearon arreglos para almacenar las letras adivinadas correctamente y para manejar la palabra oculta.
+    - Facilitó la comparación y actualización del estado de la palabra a medida que se adivinan las letras.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. **Bucles**:
+    - Utilizados para iterar a través de las letras de la palabra y los intentos del jugador.
+    - Se implementaron bucles `for` y `while` para controlar el flujo del juego y verificar las letras ingresadas.
+
+5. **Clase String y sus Métodos (valueOf, charAt, length)**:
+    - La clase `String` y sus métodos fueron esenciales para manipular la palabra a adivinar y las letras ingresadas.
+    - `valueOf`: Convertir valores a cadenas.
+    - `charAt`: Obtener un carácter específico de una cadena.
+    - `length`: Determinar la longitud de la cadena.
+
+6. **Clase Character y su Método toLowerCase**:
+    - Se utilizó para normalizar las letras ingresadas por el usuario, asegurando que todas se manejen en minúsculas.
+    - `toLowerCase`: Convertir caracteres a minúsculas para facilitar las comparaciones.
+
+## Cómo Jugar
+
+1. Ejecuta el programa en tu entorno Java.
+2. Ingresa letras una por una para adivinar la palabra oculta.
+3. Si adivinas una letra correctamente, se revelará en la palabra.
+4. Si fallas, perderás un intento.
+5. El juego termina cuando adivinas toda la palabra o te quedas sin intentos.
+
+¡Disfruta jugando al Ahorcado!
+
