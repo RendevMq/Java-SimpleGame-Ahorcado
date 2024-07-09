@@ -6,7 +6,7 @@ public class Ahorcado {
         Scanner scanner = new Scanner(System.in);
 
         //Asignaciones
-        String palabraSecreta = "inteligencia";
+        String palabraSecreta = "developer";
         int intentosMaximos = 10;
         int intentos = 0;
         boolean palabraAdivinada = false;
@@ -41,17 +41,17 @@ public class Ahorcado {
 
             if(!letraCorrecta){
                 intentos++;
-                System.out.println("Letra incorrecta , te quedan " + (intentosMaximos - intentos) + "intentos.");
+                System.out.println("Letra incorrecta , te quedan " + (intentosMaximos - intentos) + " intentos.");
             }
 
             if(String.valueOf(letrasAdivinadas).equals(palabraSecreta)){
                 palabraAdivinada = true;
-                System.out.println("Felicidades, has adivinado la palabra secreta" + palabraSecreta);
+                System.out.println("Felicidades, has adivinado la palabra secreta" + palabraSecreta  + "\n");
             }
         }
 
         if(!palabraAdivinada){
-            System.out.println("Te quedaste sin intentos , GAME OVER!!");
+            System.out.println("Te quedaste sin intentos , GAME OVER!!" + "\n");
         }
         scanner.close();
 
